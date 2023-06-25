@@ -1,0 +1,62 @@
+.form-item {
+    vertical-align: top;
+    position: relative;
+}
+
+.modal-window .form-item {
+    width: 70%;
+    margin: auto;
+}
+
+.form-input {
+    border: 1px solid #5D6678;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 16px 16px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.form-input::-webkit-scrollbar-track {
+    background: none;
+    height: 10px;
+}
+   
+.form-input::-webkit-scrollbar {
+    width: 6px;
+    background-color: #F5F5F5;
+}
+
+.form-input::-webkit-scrollbar-thumb {
+    border-radius: 100px;
+}
+
+.form-message {
+    min-height: 150px;
+    resize: none;
+    padding: 20px;
+}
+
+.form-label {
+    display: inline;
+    position: absolute;
+    pointer-events: none;
+    left: 15px;
+    top: 16px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 20px;
+    transition: .3s;
+    color: #222222;
+}
+
+.form-input:focus~.form-label,
+.form-input:not(:focus):valid~.form-label {
+    font-size: 12px;
+    line-height: 19px;
+    top: 1px;
+}

@@ -1,0 +1,25 @@
+.navigation {
+    background-color:#F9FBFF;
+    padding: 10px;
+    text-align: left;
+}
+
+.nav-line-link {
+    color: #1D273B;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 13px;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.nav-line-link:hover {
+    text-decoration: underline;
+}
+
+.navigation span {
+    color: #1D273B;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 13px;
+}

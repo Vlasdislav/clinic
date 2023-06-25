@@ -1,0 +1,70 @@
+.slider-section {
+    display: flex;
+    align-items: center;
+}
+
+.slider-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rec.rec-carousel {
+    height: 420px !important;
+}
+
+.prev, .next {
+    margin-top: 15%;
+    width: 65px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid rgba(29, 39, 59, .1);
+    background-color: rgba(0, 0, 0, 0.0001);
+    cursor: pointer;
+    outline: none;
+    transition: all .3s;
+}
+
+.prev:hover, .next:hover {
+    box-shadow: 0 0 35px rgba(29, 39, 59, .1);
+} 
+
+.prev {
+    background: url('./arrow.svg') no-repeat center;
+}
+
+.next {
+    background: url('./arrow.svg') no-repeat center;
+    transform: rotate(180deg);
+}
+
+.rec-pagination {
+    margin-top: 0 !important;
+}
+
+.rec.rec-dot {
+    background-color: rgba(29, 39, 59, .3) !important;
+    width: 70px !important;
+    height: 2px !important;
+    border-radius: 0 !important;
+    margin-right: 30px !important;
+    cursor: pointer !important;
+    transition: all .3s !important;
+}
+
+.rec.rec-dot:hover {
+    transform: scale(1.15) !important;
+}
+
+.rec.rec-dot:last-child {
+    margin-right: 0 !important;
+}
+
+.rec.rec-dot_active {
+    background-color: rgba(29, 39, 59, 1) !important;
+    border: none !important;
+}
+
+.rec, .rec:hover {
+    box-shadow: none !important;
+}

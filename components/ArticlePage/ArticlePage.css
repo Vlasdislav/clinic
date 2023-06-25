@@ -1,0 +1,28 @@
+.article {
+    text-align: left;
+    margin-left: 45px;
+    margin-bottom: 80px;
+}
+
+.article:last-child {
+    margin-bottom: 0;
+}
+
+.article-title {
+    color: #1D273B;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 150%;
+    margin-bottom: 20px;
+}
+
+.article-content {
+    color: #5D6678;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 180%;
+}
+
+.active {
+    color: red;
+}

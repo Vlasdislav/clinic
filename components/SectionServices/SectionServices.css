@@ -1,0 +1,14 @@
+.section-text {
+    color: #5D6678;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    width: 455px;
+    text-align: left;
+}
+
+.blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

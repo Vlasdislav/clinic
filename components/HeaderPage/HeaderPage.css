@@ -1,0 +1,62 @@
+.header-page {
+    background-size: cover !important;
+    color: #FFFFFF;
+    text-align: left;
+    padding: 85px 0 105px 0;
+    background-blend-mode: hue;
+}
+
+.about {
+    background: rgba(64, 64, 64, .6) url('../../assets/bgHeaderPages/about.jpg') no-repeat center;
+}
+
+.cosmetology {
+    background: rgba(64, 64, 64, .6) url('../../assets/bgHeaderPages/cosmetology.jpg') no-repeat center;
+}
+
+.sport {
+    background: rgba(64, 64, 64, .6) url('../../assets/bgHeaderPages/sport.jpg') no-repeat center;
+}
+
+.monotherapy {
+    background: rgba(64, 64, 64, .6) url('../../assets/bgHeaderPages/monotherapy.jpg') no-repeat center;
+}
+
+.neurology {
+    background: rgba(64, 64, 64, .6) url('../../assets/bgHeaderPages/neurology.jpg') no-repeat center;
+}
+
+.plasmolifting {
+    background: rgba(64, 64, 64, .6) url('../../assets/bgHeaderPages/plasmolifting.jpg') no-repeat center;
+}
+
+.rheumatology {
+    background: rgba(64, 64, 64, .6) url('../../assets/bgHeaderPages/rheumatology.jpg') no-repeat center;
+}
+
+.therapy {
+    background: rgba(64, 64, 64, .6) url('../../assets/bgHeaderPages/therapy.jpg') no-repeat center;
+}
+
+.traumatology_ortopedics {
+    background: rgba(64, 64, 64, .6) url('../../assets/bgHeaderPages/traumatology_ortopedics.jpg') no-repeat center;
+}
+
+.surgery {
+    background: rgba(64, 64, 64, .6) url('../../assets/bgHeaderPages/surgery.jpg') no-repeat center;
+}
+
+.title-page {
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 75px;
+    margin-bottom: 15px;
+}
+
+.description-page {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    width: 600px;
+}
+

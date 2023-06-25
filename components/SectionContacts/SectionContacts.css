@@ -1,0 +1,48 @@
+.contacts-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts-content > .section-title {
+    margin-bottom: 40px;
+}
+
+.info {
+    display: flex;
+    color: #5D6678;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 165.19%;
+    text-decoration: none;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.info::before {
+    content: '';
+    margin-right: 25px;
+}
+
+.info-link {
+    display: flex;
+}
+
+.telephon::before {
+    content: url('../../assets/icons/telephon.svg');
+}
+
+.clock::before {
+    content: url('../../assets/icons/clock.svg');
+}
+
+.mark::before {
+    content: url('../../assets/icons/mark.svg');
+}
+
+.mail::before {
+    content: url('../../assets/icons/mail.svg');
+}
+
+.contacts-content > .buttons {
+    margin-top: 20px;
+}

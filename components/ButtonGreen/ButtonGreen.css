@@ -1,0 +1,15 @@
+.button-green {
+    padding: 12px 20px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    background-color: #1FDE82;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.5s ease;
+}
+
+.button-green:hover {
+    background-color: rgb(31, 200, 130);
+}

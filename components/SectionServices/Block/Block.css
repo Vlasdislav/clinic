@@ -1,0 +1,72 @@
+.block {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    box-shadow: 0px 24px 32px rgba(0, 0, 0, 0.04), 0px 16px 24px rgba(0, 0, 0, 0.04), 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 10px;
+    padding: 30px;
+    padding-bottom: 90px;
+    margin-bottom: 30px;
+    transition: .5s;
+}
+
+.block:hover {
+    transform: scale(1.05);
+}
+
+.icon {
+    background: url('./bgIcon.svg') no-repeat center;
+    margin-bottom: 40px;
+    display: block;
+    margin-right: auto;
+    padding: 22px 30px;
+}
+
+.block-title {
+    color: #222222;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    margin-bottom: 15px;
+    margin-right: auto;
+}
+
+.block-text {
+    color: #5D6678;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 23px;
+    width: 300px;
+    padding-right: 28px;
+}
+
+.more {
+    text-transform: uppercase;
+    color: #222222;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: none;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
+.more::after {
+    content: '';
+    background: url('./arrow.svg') no-repeat center;
+    margin-left: 6px;
+    height: 15px;
+    width: 15px;
+}
+
+@media(max-width: 1200px) {
+    .block {
+        width: 42%;
+    }
+
+    .block-text {
+        width: 95%;
+    }
+  }

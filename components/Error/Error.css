@@ -1,0 +1,9 @@
+.error-title {
+    text-align: center;
+    color: rgba(31, 222, 130, 0.3);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 500px;
+    line-height: 586px;
+    margin-top: 60px;
+}

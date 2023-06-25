@@ -1,0 +1,14 @@
+.button-watch {
+    font-size: 16px;
+    line-height: 19px;
+    color: #1D273B;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.button-watch::before {
+    content: url('./play.svg');
+    margin-right: 15px;
+}

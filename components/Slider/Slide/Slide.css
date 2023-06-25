@@ -1,0 +1,39 @@
+.slide {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.slide-content {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.slide-title {
+    font-weight: 300;
+    font-size: 58px;
+    line-height: 68px;
+    color: #1D273B;
+    max-width: 680px;
+}
+
+.slide-description {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #5D6678;
+    max-width: 530px;
+    margin-top: 20px;
+}
+
+.slide-buttons {
+    display: flex;
+    margin-top: 45px;
+}
+
+.img {
+    max-width: 350px;
+    max-height: 350px;
+}

@@ -1,0 +1,43 @@
+.nav-page {
+    position: sticky;
+    top: 0;
+    display: inline-table;
+}
+
+.nav-panel {
+    text-align: left;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    counter-reset: elemNumber;
+    max-width: 350px;
+}
+
+.nav-elem-content {
+    margin-bottom: 20px;
+}
+
+.nav-link-content {
+    list-style-type: decimal;
+    color: #5D6678;
+    letter-spacing: -0.02em;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+}
+
+.nav-link-content::before {
+    counter-increment: elemNumber;
+    content: counter(elemNumber) " ";
+}
+
+.nav-link-content:hover, .active {
+    color: #1D273B;
+    font-weight: 500;
+}
+
+.ads {
+    width: 332px;
+}

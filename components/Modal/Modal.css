@@ -1,0 +1,35 @@
+.modal {
+    display: flex;
+}
+
+.modal-auth {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-window {
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 500px;
+    margin: auto;
+    padding: 30px;
+}
+
+.modal-close {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button-close {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+}
