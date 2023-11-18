@@ -1,5 +1,6 @@
 import React from "react"
-import { Link } from "react-router-dom/cjs/react-router-dom.min"
+// import { Link } from "react-router-dom/cjs/react-router-dom.min"
+import { Link } from "react-router-dom"
 import "./Footer.css"
 import instagram from "../../assets/social/instagram.svg"
 import telegram from "../../assets/social/telegram.svg"
